@@ -20,8 +20,37 @@ Our question for today is: Are there are other factors about a patient that hosp
 K-means clustering is an unsupervised machine learning technique. We can use this analysis tool to segment patients into distinct groups based on similar characteristics--such as age, comorbidities, length of hospital stay, and medication use--to identify those at high risk for hospital readmission.
 
 The following steps were taken within this analysis: 
+1. Import relevant packages.
+2. Explore the data, and identify potential continuous variables that we can use for this analysis .
+3. Evaluate the mean and standard deviation of each continouous variable.
+4. Produce a scatterplot to visualize the data (figure 1). 
+5. Standardize the dataset of our selected variable to perform the K-means analysis.
+6. Produce an elbow plot to determine how many K-clusters should be selected (figure 2).
+7. Run the k-means cluster analysis on the selected variables with the selected number of clusters.
+8. Generate the scatterplot to visualize the k-means analysis (figure 3).
 
-## Getting Started
+## Getting Started 
 
-## Useful Resources
+### Dependencies
+Dataset was downloaded from the following site: https://www.kaggle.com/datasets/dubradave/hospital-readmissions?resource=download 
+
+Use "Hospital_Readmissions_Kmeans.py" to see data cleaning and analysis.
+
+Relevant Packages: 
+import seaborn as sns
+import pandas as pd 
+from scipy.cluster import vq
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+
+Modify file path names for uploading the dataset and output files. Install sklearn in your terminal using:
+pip install scikit-learn
+
+### Useful Resources
+Sources for information about hospital readmission
+- https://www.kaggle.com/datasets/dubradave/hospital-readmissions?resource=download 
+ https://www.commonwealthfund.org/international-health-policy-center/countries/united-states
+- https://www.kff.org/health-costs/health-policy-101-health-care-costs-and-affordability/?entry=table-of-contents-how-has-u-s-health-care-spending-changed-over-time
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6614936/
 
