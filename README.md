@@ -56,8 +56,11 @@ pip install scikit-learn
 
 ### Useful Resources
 Sources for information about hospital readmission
-- https://www.kaggle.com/datasets/dubradave/hospital-readmissions?resource=download 
+- https://www.kaggle.com/datasets/dubradave/hospital-readmissions?resource=download
  https://www.commonwealthfund.org/international-health-policy-center/countries/united-states
 - https://www.kff.org/health-costs/health-policy-101-health-care-costs-and-affordability/?entry=table-of-contents-how-has-u-s-health-care-spending-changed-over-time
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC6614936/
+
+## Figures
+
 
