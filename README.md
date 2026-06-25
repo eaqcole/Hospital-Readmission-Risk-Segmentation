@@ -62,9 +62,9 @@ Sources for information about hospital readmission
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC6614936/
 
 ## Figures
-![scatterplot][figure1kmeansscatterplot.png]
+![scatterplot](figure1kmeansscatterplot.png)
 
-![elbowplot][figure2elbowplot.png]
+![elbowplot](figure2elbowplot.png)
 
-![Kmeanslabeledscatterplot][figure3Kmeans.png]
+![Kmeanslabeledscatterplot](figure3Kmeans.png)
 
