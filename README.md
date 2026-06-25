@@ -1,7 +1,7 @@
 # Hospital-Readmission-Risk-Segmentation
 Engineered a K-means clustering pipeline in Python to segment 25,000 hospital patients by readmission risk — applying StandardScaler normalization, elbow method optimization, and SciPy/scikit-learn clustering to identify high, medium, and low-risk patient profiles based on lab procedure and medication utilization patterns.
 
-##Description 
+## Description 
 The United States healthcare system combines public and private, for-profit and nonprofit insurers and healthcare providers. According to KFF, healthcare costs in the United States generally grow faster than inflation and represent a much larger share of the economy in the U.S. than in peer nations. Despite this substantial spending, elevate healthcare expenditure in the U.S. does not consistently translate into superior health outcomes. Rising health care costs instead contribute to Americans facing difficulty affording medical care and drugs, even among those with insurance.
 
 Over the years, multiple efforts have been made by the federal government to reduce one of the contributors of rising healthcare costs--hospital readmissions rates. Readmission rates contribute to high healthcare costs by generating an estimated $15-$20 billion in annual spending due to added resource use and penalties incurred under federal programs. For example, the Hospital Readmission Reduction Program (HRRP) was designed as a Medicare value-based purchasing program that decreases payments to hospitals that have disproportionately high readmissions.
@@ -21,7 +21,7 @@ K-means clustering is an unsupervised machine learning technique. We can use thi
 
 The following steps were taken within this analysis: 
 
-##Getting Started
+## Getting Started
 
-##Useful Resources
+## Useful Resources
 
