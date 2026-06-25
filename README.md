@@ -30,11 +30,10 @@ The following steps were taken within this analysis:
 8. Generate the scatterplot to visualize the k-means analysis (figure 3).
 
 ## Conclusions
-**Feature selection** — out of 7 continuous variables, lab procedure count and medication count were chosen because they had the highest standard deviation (spread), meaning they carry the most discriminating power for clustering.
+**Feature selection**: out of 7 continuous variables, lab procedure count and medication count were chosen because they had the highest standard deviation (spread), meaning they carry the most discriminating power for clustering.
+**Cluster Selection**: K=3 was selected based on the elbow plot below (figure 2) which showed diminishing WCSS returns after 3 clusters, and 3 maps intuitively to a high/medium/low risk framework relevant to clinical decision-making.
 
-**Cluster Selection** - K=3 was selected based on the elbow plot below (figure 2) which showed diminishing WCSS returns after 3 clusters, and 3 maps intuitively to a high/medium/low risk framework relevant to clinical decision-making.
-
-**Clinical implication** — patients with more complex care needs during a hospital stay (more tests, more medications) cluster together and may warrant targeted discharge planning or follow-up to reduce readmission likelihood.
+**Clinical Implication**: patients with more complex care needs during a hospital stay (more tests, more medications) cluster together and may warrant targeted discharge planning or follow-up to reduce readmission likelihood.
 
 ## Getting Started 
 
