@@ -20,10 +20,10 @@ Our question for today is: Are there are other factors about a patient that hosp
 K-means clustering is an unsupervised machine learning technique. We can use this analysis tool to segment patients into distinct groups based on similar characteristics--such as age, comorbidities, length of hospital stay, and medication use--to identify those at high risk for hospital readmission.
 
 The following steps were taken within this analysis: 
-1. Import relevant packages and connect to Amazon S3 bucket to pull data.
+1. Import relevant packages and connect to AWS S3 bucket to pull data.
 2. Explore the data, and identify potential continuous variables that we can use for this analysis .
 3. Evaluate the mean and standard deviation of each continouous variable.
-4. Push the filtered data back into the Amazon S3 bucket as a new file. 
+4. Push the filtered data back into the AWS S3 bucket as a new file. 
 5. Produce a scatterplot to visualize the data (figure 1). 
 6. Standardize the dataset of our selected variable to perform the K-means analysis.
 7. Produce an elbow plot to determine how many K-clusters should be selected (figure 2).
@@ -41,11 +41,13 @@ The following steps were taken within this analysis:
 
 ### Dependencies
 Dataset was downloaded from the following site: https://www.kaggle.com/datasets/dubradave/hospital-readmissions?resource=download 
+and stored in an AWS S3 bucket.
 
 Use "Hospital_Readmissions_Kmeans.py" to see data cleaning and analysis.
 
 **Relevant Packages:** 
 import seaborn as sns
+import boto3
 import pandas as pd 
 from scipy.cluster import vq
 import matplotlib.pyplot as plt
