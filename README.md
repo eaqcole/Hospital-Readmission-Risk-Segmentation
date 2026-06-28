@@ -20,14 +20,15 @@ Our question for today is: Are there are other factors about a patient that hosp
 K-means clustering is an unsupervised machine learning technique. We can use this analysis tool to segment patients into distinct groups based on similar characteristics--such as age, comorbidities, length of hospital stay, and medication use--to identify those at high risk for hospital readmission.
 
 The following steps were taken within this analysis: 
-1. Import relevant packages.
+1. Import relevant packages and connect to Amazon S3 bucket to pull data.
 2. Explore the data, and identify potential continuous variables that we can use for this analysis .
 3. Evaluate the mean and standard deviation of each continouous variable.
-4. Produce a scatterplot to visualize the data (figure 1). 
-5. Standardize the dataset of our selected variable to perform the K-means analysis.
-6. Produce an elbow plot to determine how many K-clusters should be selected (figure 2).
-7. Run the k-means cluster analysis on the selected variables with the selected number of clusters.
-8. Generate the scatterplot to visualize the k-means analysis (figure 3).
+4. Push the filtered data back into the Amazon S3 bucket as a new file. 
+5. Produce a scatterplot to visualize the data (figure 1). 
+6. Standardize the dataset of our selected variable to perform the K-means analysis.
+7. Produce an elbow plot to determine how many K-clusters should be selected (figure 2).
+8. Run the k-means cluster analysis on the selected variables with the selected number of clusters.
+9. Generate the scatterplot to visualize the k-means analysis (figure 3).
 
 ## Conclusions
 **Feature selection**: out of 7 continuous variables, lab procedure count and medication count were chosen because they had the highest standard deviation (spread), meaning they carry the most discriminating power for clustering.
